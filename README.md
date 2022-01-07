@@ -1,4 +1,4 @@
-# Google-Map
+# Google-Map GroundOverlay
 Custom Google Map for a business
 
 [WATCH](https://www.awesomescreenshot.com/video/6744897?key=4a6ccb3089afc5ab720dd38fcb9dc8c1)
