@@ -16,3 +16,8 @@ wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemappolyfill', 'https://polyfill.io
 wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemap', get_stylesheet_directory_uri() . '/assets/theme/js/googlemap.js', null, false, true );
 wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemapapi', 'https://maps.googleapis.com/maps/api/js?key=YOURGOOGLEMAPAPIKEYHERE&callback=initMap', null, false, true );
 ```
+
+1. Add `<div id="map"></div>` in your html file.
+2. Write custom javscript code and add the path in your html file. 
+3. Add `googlemapapikey` path and `pollyfill.min.js` path in your html file.
+4. I guess thats it! 
