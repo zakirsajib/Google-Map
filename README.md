@@ -1,8 +1,8 @@
 # Google-Map
 Custom Google Map for a business
 
-## Watch this video to get an idea:
-https://www.awesomescreenshot.com/video/6744897?key=4a6ccb3089afc5ab720dd38fcb9dc8c1
+[WATCH](https://www.awesomescreenshot.com/video/6744897?key=4a6ccb3089afc5ab720dd38fcb9dc8c1)
+
 
 We will build this
 
