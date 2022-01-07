@@ -10,8 +10,9 @@ We will build this
 
 You must need a google map api.
 
-### In WordPress functions.php file, you can use following:
-
-- wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemappolyfill', 'https://polyfill.io/v3/polyfill.min.js?features=default', null, false, true );
-- wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemap', get_stylesheet_directory_uri() . '/assets/theme/js/googlemap.js', null, false, true );
-- wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemapapi', 'https://maps.googleapis.com/maps/api/js?key=YOURGOOGLEMAPAPIKEYHERE&callback=initMap', null, false, true );
+#### In WordPress functions.php file, you can use following:
+```
+wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemappolyfill', 'https://polyfill.io/v3/polyfill.min.js?features=default', null, false, true );
+wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemap', get_stylesheet_directory_uri() . '/assets/theme/js/googlemap.js', null, false, true );
+wp_enqueue_script( THEME_TEXTDOMAIN . '-googlemapapi', 'https://maps.googleapis.com/maps/api/js?key=YOURGOOGLEMAPAPIKEYHERE&callback=initMap', null, false, true );
+```
